@@ -16,7 +16,7 @@ class TestAddition(unittest.TestCase):
         self.assertEqual(additon(-2, -3), -5)
 
     def test_add_positive_and_negative(self):
-        self.assertEqual(additon(5, -3), 8)
+        self.assertEqual(additon(5, -3), 2)
 
     def test_add_zero(self):
         self.assertEqual(additon(0, 0), 0)
